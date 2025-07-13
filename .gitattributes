@@ -1,0 +1,2 @@
+carteiras.parquet filter=lfs diff=lfs merge=lfs -text
+sobrevivencia.parquet filter=lfs diff=lfs merge=lfs -text
