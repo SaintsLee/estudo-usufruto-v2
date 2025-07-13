@@ -1,9 +1,6 @@
-dados_completos__retornos_brotli.parquet
-dados_completos_brotli.parquet
-
 .streamlit/secrets.toml
 dados_completos_retornos_brotli.parquet
-*.parquet
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
