@@ -33,40 +33,35 @@ def apresenta_carteiras():
     # Quais carteiras estão sendo analisadas
     tipos_carteiras = ["Conservadora", "Moderada", "Arrojada", "Agressiva"]
 
-    # Classes dos ativos de cada carteira
     classe_ativos_conservadora = ["Renda Fixa - CDI",
                                   "Renda Fixa - CDI"]
 
     classe_ativos_moderada = ["Renda Fixa - CDI",
-                              "Renda Fixa - CDI",
-                              "Renda Fixa - Inflação",
                               "Renda Fixa - Inflação",
                               "Renda Fixa - Pré",
                               "Renda Variável - Imobiliário"]
 
     classe_ativos_arrojada = ["Renda Fixa - CDI",
-                              "Renda Fixa - CDI",
-                              "Renda Fixa - Inflação",
                               "Renda Fixa - Inflação",
                               "Renda Fixa - Pré",
-                              "Renda Variável - Imobiliário",
                               "Renda Variável - Ações BR",
                               "Renda Fixa - Exterior",
                               "Renda Fixa - Exterior",
                               "Renda Variável - Ações Global",
-                              "Ouro"]
+                              "Ouro",
+                              "Renda Variável - Imobiliário"
+                              ]
 
     classe_ativos_agressiva = ["Renda Fixa - CDI",
-                               "Renda Fixa - CDI",
-                               "Renda Fixa - Inflação",
                                "Renda Fixa - Inflação",
                                "Renda Fixa - Pré",
-                               "Renda Variável - Imobiliário",
                                "Renda Variável - Ações BR",
                                "Renda Fixa - Exterior",
                                "Renda Fixa - Exterior",
                                "Renda Variável - Ações Global",
-                               "Ouro"]
+                               "Ouro",
+                               "Renda Variável - Imobiliário",
+                               ]
 
     # Pesos dos ativos de cada carteira
     pesos_carteira_conservadora = [0.3,
