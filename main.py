@@ -112,7 +112,8 @@ with container_baixo:
                                                       label_visibility="hidden")
 
         # Box Plot 1 - Dispersão do PL
-        cap_inicial = 3000000
+        cap_inicial = 100
+        
         carteiras_pl = dados_completos[(dados_completos["Taxa"] == "{:.2f}%".format(taxa_carteira)) &
                                        (dados_completos["Periodo"] == "{} Anos".format(periodo_carteira))].copy()
 
